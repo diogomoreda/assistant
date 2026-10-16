@@ -1,0 +1,56 @@
+{
+  // Editor behavior
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "selection",
+  "editor.wordWrap": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  // TypeScript and JavaScript
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.preferences.importModuleSpecifier": "relative",
+  "js/ts.preferences.quoteStyle": "single",
+
+  // Organize imports when saving
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  // Files
+  "files.autoSave": "off",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+
+  // Exclude generated and dependency files from Explorer
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/coverage": true
+  },
+
+  // Exclude generated files from search
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/coverage": true,
+    "**/*.tsbuildinfo": true
+  },
+
+  // TypeScript project files
+  "js/ts.preferences.includePackageJsonAutoImports": "auto",
+
+  // Terminal
+  "terminal.integrated.scrollback": 10000,
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": true
+}
