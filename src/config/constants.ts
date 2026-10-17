@@ -1,3 +1,5 @@
-export const url = `http://localhost:11434`;
+export const OLLAMA_URL = `http://localhost:11434`;
 
-export const chatUrl = `${url}/ai/chat`;
+export const CHAT_URL = `${OLLAMA_URL}/api/chat`;
+
+export const PROMPT_STR = '> ';
